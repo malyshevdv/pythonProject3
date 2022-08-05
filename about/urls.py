@@ -6,6 +6,7 @@ urlpatterns = [
     #path('', showAnswer, name = 'about'),
     path('', AboutClass.as_view(), name='about'),
     path('profile/', MyProfile.as_view(), name='profile'),
+    path('about/', AboutClass.as_view(), name='profile'),
 
     #views.homePageView()
 ]
